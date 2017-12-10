@@ -7,19 +7,21 @@
  - Users (id, email, language, location)
  - Transactions (transaction-id, product-id, user-id, purchase-amount, item-description)
   ##### Example
-- Users (id, email, language, location)
- > id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;language&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;location
- > 1001&nbsp;&nbsp;&nbsp;&nbsp;A@yahoo.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Germany
- > 1002&nbsp;&nbsp;&nbsp;&nbsp;B@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arabic&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Egypt
- > 1003&nbsp;&nbsp;&nbsp;&nbsp;C@fcih.edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;French&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Canada
- > 1004&nbsp;&nbsp;&nbsp;&nbsp;D@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Egypt
-- Transactions (transaction-id, product-id, user-id, purchase-amount,item-description)
-> t_id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prod_id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User_id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pur_amount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;item_desc
-> 1001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description
-> 1002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;700&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description
-> 1003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;400&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description
-> 1004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description
+Users (id, email, language, location)
+| user_id       | email       | language  | location |
+| ------------- |:-------------:| -----:|------------:|
+| 1001    | A@gmail.com | English | Germany
+| 1002      | B@gmail.com | Arabic   | Egypt
+| 1003 |  C@yahoo.com | French |Canada |
+| 1004 | D@fcih.edu.eg    |Englsih | Egypt|
 
+Transactions (transaction-id, product-id, user-id, purchase-amount,item-description)
+| t_id       | prod_id | user_id  | pru_amount | item_desc|
+| ------------- |:-------------:| -----:|------------:|-----------:|
+| 1001  | 5 | 1003 | 500| Description
+| 1002  | 6 | 1004   | 700| Description
+| 1003 |  9 | 1004 |400 | Description
+| 1004 | 2 | 1001 | 100| Description
 ### Aim
   is to find the number of unique locations in which each product has been sold.
   to do that we need to join the two datasets and start to extract informations.
