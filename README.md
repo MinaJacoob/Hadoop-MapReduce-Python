@@ -10,8 +10,8 @@
 Users (id, email, language, location)
 | user_id       | email       | language  | location |
 | ------------- |:-------------:| -----:|------------:|
-| 1001    | A@gmail.com | English | Germany |
-| 1002      | B@gmail.com | Arabic   | Egypt |
+| 1001 | A@gmail.com | English | Germany |
+| 1002  | B@gmail.com | Arabic   | Egypt |
 | 1003 |  C@yahoo.com | French |Canada |
 | 1004 | D@fcih.edu.eg    |Englsih | Egypt|
 
@@ -30,15 +30,15 @@ Transactions (transaction-id, product-id, user-id, purchase-amount,item-descript
   here we will start our fist __JOB__ which is responsible for mapping the two tables to the following style
 ####  After merging:
 | user_id       | prod_id       | location  |
-| ------------- |:-------------:| -----:|
-| 1001    | - | Germany |
-| 1001      | 5      |   - |
-| 1002 | _      |    Egypt |
-| 1002 | 6      |    - |
-| 1003 | _      |    Canada |
-| 1003 | 2      |    - |
-| 1001 | _      |    Egypt |
-| 1001 | 2     |    - |
+| ------- |:------:| -----:|
+| 1001 | - | Germany |
+| 1001 | 5 |   - |
+| 1002 | - |    Egypt |
+| 1002 | 6 |    - |
+| 1003 | - |    Canada |
+| 1003 | 2 |    - |
+| 1001 | - |    Egypt |
+| 1001 | 2 |    - |
 and then reducing it to get each prod_id wiht it's location as following
 ### after reducing:
 | prod_id       | location       |
