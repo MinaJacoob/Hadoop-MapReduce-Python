@@ -10,18 +10,18 @@
 Users (id, email, language, location)
 | user_id       | email       | language  | location |
 | ------------- |:-------------:| -----:|------------:|
-| 1001    | A@gmail.com | English | Germany
-| 1002      | B@gmail.com | Arabic   | Egypt
+| 1001    | A@gmail.com | English | Germany |
+| 1002      | B@gmail.com | Arabic   | Egypt |
 | 1003 |  C@yahoo.com | French |Canada |
 | 1004 | D@fcih.edu.eg    |Englsih | Egypt|
 
 Transactions (transaction-id, product-id, user-id, purchase-amount,item-description)
 | t_id       | prod_id | user_id  | pru_amount | item_desc|
 | ------------- |:-------------:| -----:|------------:|-----------:|
-| 1001  | 5 | 1003 | 500| Description
-| 1002  | 6 | 1004   | 700| Description
-| 1003 |  9 | 1004 |400 | Description
-| 1004 | 2 | 1001 | 100| Description
+| 1001  | 5 | 1003 | 500| Description |
+| 1002  | 6 | 1004   | 700| Description |
+| 1003 |  9 | 1004 |400 | Description |
+| 1004 | 2 | 1001 | 100| Description |
 ### Aim
   is to find the number of unique locations in which each product has been sold.
   to do that we need to join the two datasets and start to extract informations.
