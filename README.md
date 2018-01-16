@@ -62,5 +62,6 @@ we will start the __SECOND JOB__ to start counting each location a product has p
 
 
 ####system requirments:
+
  * Python 2.7
  * Hadoop 2.8.1
