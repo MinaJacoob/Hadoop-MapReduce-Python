@@ -1,0 +1,19 @@
+Job1
+
+hadoop jar /usr/local/hadoop-2.8.1/share/hadoop/tools/lib/hadoop-streaming-2.8.1.jar -input /user/mina/task/input/* -output /user/mina/task/output/ -mapper ~/hello/hadoop_Python/Task3/mapper.py -reducer ~/hello/hadoop_Python/Task3/reducer.py 
+
+Job2
+
+
+hadoop jar /usr/local/hadoop-2.8.1/share/hadoop/tools/lib/hadoop-streaming-2.8.1.jar -input /user/mina/task/output/part-* -output /user/mina/task/final_output/ -mapper ~/hello/hadoop_Python/Task3_v2/mapper.py -reducer ~/hello/hadoop_Python/Task3_v2/reducer.py 
+
+delete file on dfs:
+hadoop dfs -rm -r /user/mina/task/output/
+hadoop dfs -rm -r /user/mina/task/final_output/
+
+cat file on dfs:
+hadoop dfs -cat /user/mina/task/final_output/part-*
+
+local-host-runner:
+cat input/* | python Task3/mapper.py | sort -k1 | python Task3/reducer.py | python Task3_v2/mapper.py | sort -k1 | python Task3_v2/reducer.py
+

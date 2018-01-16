@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c55fc6e-0332-47c4-b4b4-0440d9cd782b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Hadoop MapReduce.iml" afterPath="$PROJECT_DIR$/.idea/Hadoop MapReduce.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job1/.idea/Task3.iml" afterPath="$PROJECT_DIR$/Job1/.idea/Task3.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job1/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/Job1/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job1/.idea/misc.xml" afterPath="$PROJECT_DIR$/Job1/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job1/.idea/modules.xml" afterPath="$PROJECT_DIR$/Job1/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Job1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job1/hadoop_mapper_output_example.txt" afterPath="$PROJECT_DIR$/Job1/hadoop_mapper_output_example.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job2/.idea/Task3_v2.iml" afterPath="$PROJECT_DIR$/Job2/.idea/Task3_v2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job2/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/Job2/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job2/.idea/misc.xml" afterPath="$PROJECT_DIR$/Job2/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job2/.idea/modules.xml" afterPath="$PROJECT_DIR$/Job2/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Job2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Job2/hadoop_mapper_input_example.txt" afterPath="$PROJECT_DIR$/Job2/hadoop_mapper_input_example.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator.py" afterPath="$PROJECT_DIR$/generator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/product_info.csv" afterPath="$PROJECT_DIR$/input/product_info.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/user_info.csv" afterPath="$PROJECT_DIR$/input/user_info.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -273,7 +294,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
