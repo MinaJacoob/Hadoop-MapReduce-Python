@@ -8,6 +8,7 @@
  - Transactions (transaction-id, product-id, user-id, purchase-amount, item-description)
   ##### Example
 Users (id, email, language, location)
+
 | user_id       | email       | language  | location |
 | ------------- |:-------------:| :-----:| :------------:|
 | 1001 | A@gmail.com | English | Germany |
